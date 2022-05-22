@@ -1,3 +1,4 @@
+// ignore_for_file: file_names
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Product {
@@ -24,11 +25,11 @@ class Product {
   }
 
   Product.fromJson(Map<String, dynamic> json)
-    : this.name = json['name'],
-      this.price = json['price'].toDouble(),
-      this.stock = json['stock'],        
-      this.description = json['description'],
-      this.productId = json['productId'];
+    : name = json['name'],
+      price = json['price'].toDouble(),
+      stock = json['stock'],        
+      description = json['description'],
+      productId = json['productId'];
  
   Map<String, dynamic> toJson() => {
     'name': name,

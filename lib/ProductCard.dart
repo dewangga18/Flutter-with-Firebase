@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:firebase_project/models/Product.dart';
 import 'package:firebase_project/repository/DataRepository.dart';
 import 'package:firebase_project/transaction/EditProduct.dart';

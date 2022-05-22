@@ -14,6 +14,7 @@ Future<void> main() async {
       appId: "1:322746282249:web:20c91ddd403bb4706723d8",
       measurementId: "G-BQ4RYBJB51"
     ),
+    
   );
   runApp(const MyApp());
 }

@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:firebase_project/models/Product.dart';
 import 'package:firebase_project/repository/DataRepository.dart';
 import 'package:flutter/material.dart';
@@ -70,7 +72,7 @@ class AddProduct extends StatelessWidget {
                       margin: const EdgeInsets.only(bottom: 20),
                       child: TextField(
                         controller: inputProductName,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                             border: OutlineInputBorder(),
                             hintText: "Product name"),
                       ),
@@ -80,7 +82,7 @@ class AddProduct extends StatelessWidget {
                       margin: const EdgeInsets.only(bottom: 20),
                       child: TextField(
                         controller: inputProductId,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           border: OutlineInputBorder(),
                           hintText: "Product id",
                         ),
@@ -91,7 +93,7 @@ class AddProduct extends StatelessWidget {
                       margin: const EdgeInsets.only(bottom: 20),
                       child: TextField(
                         controller: inputPrice,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           border: OutlineInputBorder(),
                           hintText: "1000000",
                         ),
@@ -102,7 +104,7 @@ class AddProduct extends StatelessWidget {
                       margin: const EdgeInsets.only(bottom: 20),
                       child: TextField(
                         controller: inputStock,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           border: OutlineInputBorder(),
                           hintText: "10",
                         ),
@@ -113,7 +115,7 @@ class AddProduct extends StatelessWidget {
                       margin: const EdgeInsets.only(bottom: 20),
                       child: TextField(
                         controller: inputDescription,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           border: OutlineInputBorder(),
                           hintText: "Enter a description ...",
                         ),
